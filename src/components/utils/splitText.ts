@@ -32,7 +32,7 @@ export default function setSplitText() {
     });
 
     para.anim = gsap.fromTo(
-      para.split.words,
+      para.split!.words,
       { autoAlpha: 0, y: 80 },
       {
         autoAlpha: 1,
