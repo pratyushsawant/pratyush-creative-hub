@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run dev)",
+      "Bash(ls \"/Users/pratyushsawant/Desktop/\" | xxd | grep -A2 \"5.48\")",
+      "Bash(python3 -c \"\nimport os\nfiles = os.listdir\\('/Users/pratyushsawant/Desktop/'\\)\nfor f in files:\n    print\\(repr\\(f\\)\\)\n\")",
+      "Bash(python3 -c \"\nimport shutil\nsrc = '/Users/pratyushsawant/Desktop/Screenshot 2026-03-10 at 5.48.40\\\\u202fpm.png'\ndst = '/Users/pratyushsawant/Documents/VSC/rajesh-portfolio-main/public/images/shawty.png'\nshutil.copy2\\(src, dst\\)\nprint\\('Done'\\)\n\")",
+      "Bash(git init && git add . && git commit -m \"Initial commit - Pratyush Sawant portfolio\")"
+    ]
+  }
+}
