@@ -44,6 +44,21 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
+                <h4>Quality Assurance Tester</h4>
+                <h5>Rockstar Games · Leeds, England</h5>
+              </div>
+              <h3>NOW</h3>
+            </div>
+            <p>
+              Tested GTA VI builds across 100+ hours, logging 50+ bugs across
+              gameplay, UI, and open-world systems. Collaborated with dev teams
+              to reproduce, document, and validate bug fixes, improving build
+              stability by 30%.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
                 <h4>Learning Assistant</h4>
                 <h5>STEP Learning · Lubbock, TX</h5>
               </div>
