@@ -12,6 +12,13 @@ const projects = [
     link: "https://paystreamhbar.vercel.app/",
   },
   {
+    title: "QCheck",
+    category: "Decentralized Medicine Verification Protocol",
+    tools: "Next.js, Solidity, Ethereum, Ethers.js, QR Code Generation",
+    image: "/images/qcheck.png",
+    link: "https://qcheck-ethdenver.vercel.app/",
+  },
+  {
     title: "Connectra",
     category: "Social Networking App",
     tools: "MongoDB, Express, React, Node.js",
@@ -119,7 +126,7 @@ const Work = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="carousel-image-wrapper" style={index === 1 || index === 2 || index === 3 ? { transform: "translateX(-60px)" } : undefined}>
+                    <div className="carousel-image-wrapper" style={index === 1 ? { transform: "translateX(-100px)" } : index >= 2 && index <= 4 ? { transform: "translateX(-100px)" } : undefined}>
                       <WorkImage image={project.image} alt={project.title} link={project.link} />
                     </div>
                   </div>

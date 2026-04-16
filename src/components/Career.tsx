@@ -55,6 +55,21 @@ const Career = () => {
               peer learning by simplifying complex computational concepts.
             </p>
           </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Student Assistant</h4>
+                <h5>TTU Housing · Lubbock, TX</h5>
+              </div>
+              <h3>NOW</h3>
+            </div>
+            <p>
+              Automated operations using SQL-based data tracking systems, reducing
+              package distribution errors by 61%. Analyzed operational data to identify
+              workflow bottlenecks and optimize resource allocation through digital tool
+              integration.
+            </p>
+          </div>
         </div>
       </div>
     </div>
