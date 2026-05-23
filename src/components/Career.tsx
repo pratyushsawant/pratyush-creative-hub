@@ -47,7 +47,7 @@ const Career = () => {
                 <h4>Quality Assurance Tester</h4>
                 <h5>Rockstar Games · Leeds, England</h5>
               </div>
-              <h3>APR 2025 - MAY 2025</h3>
+              <h3>APR 2026 - MAY 2026</h3>
             </div>
             <p>
               Tested GTA VI builds across 100+ hours, logging 50+ bugs across
