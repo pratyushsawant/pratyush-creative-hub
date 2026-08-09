@@ -85,6 +85,22 @@ const Career = () => {
               integration.
             </p>
           </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Private Equity Intern</h4>
+                <h5>Tigbourne Capital · Remote</h5>
+              </div>
+              <h3>NOW</h3>
+            </div>
+            <p>
+              Own the Asia lane of the firm's global oilfield screening and
+              valuation workbook, building 20+ field datasets to a standardized
+              5-sheet schema. Built ARPS hyperbolic decline forecasts across 2
+              development scenarios and led a CEO-authorized rebuild of the
+              North America dataset.
+            </p>
+          </div>
         </div>
       </div>
     </div>
