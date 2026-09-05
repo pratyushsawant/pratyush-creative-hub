@@ -19,6 +19,11 @@ const Contact = () => {
                 sawantpratyush05@gmail.com
               </a>
             </p>
+            <p>
+              <a href="mailto:sawantpratyush9@gmail.com" data-cursor="disable">
+                sawantpratyush9@gmail.com
+              </a>
+            </p>
             <h4>Education</h4>
             <p>BS in Computer Science, Texas Tech University (GPA: 4.00)</p>
           </div>
