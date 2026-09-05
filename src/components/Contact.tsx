@@ -15,11 +15,6 @@ const Contact = () => {
               </a>
             </p>
             <p>
-              <a href="mailto:sawantpratyush05@gmail.com" data-cursor="disable">
-                sawantpratyush05@gmail.com
-              </a>
-            </p>
-            <p>
               <a href="mailto:sawantpratyush9@gmail.com" data-cursor="disable">
                 sawantpratyush9@gmail.com
               </a>
