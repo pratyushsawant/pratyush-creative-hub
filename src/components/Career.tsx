@@ -91,7 +91,7 @@ const Career = () => {
                 <h4>Private Equity Intern</h4>
                 <h5>Tigbourne Capital · Remote</h5>
               </div>
-              <h3>Aug 2026</h3>
+              <h3>2026</h3>
             </div>
             <p>
               Own the Asia lane of the firm's global oilfield screening and
