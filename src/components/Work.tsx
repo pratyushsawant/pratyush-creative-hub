@@ -5,6 +5,27 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
+    title: "Olange",
+    category: "AI-Native Real Estate CRM",
+    tools: "React Native (Expo), TypeScript, Conversational AI Agent,\nWhatsApp-First UX, Hinglish Voice Input",
+    image: "/images/olange.png",
+    link: "https://olange.app/",
+  },
+  {
+    title: "DBStencil",
+    category: "Visual Database Schema Designer",
+    tools: "React, TypeScript, Infinite Drag-and-Drop Canvas,\nLive DBML Editor, PostgreSQL DDL Export",
+    image: "/images/dbstencil.png",
+    link: "https://www.dbstencil.app/",
+  },
+  {
+    title: "Tigbourne OFI",
+    category: "Oil Field Screening & Valuation Platform",
+    tools: "React, TypeScript, FastAPI, PostgreSQL,\n25-Year DCF Engine, Clerk Auth, Stripe Billing",
+    image: "/images/tigbourne.png",
+    link: "https://tigbourneoildataapp.netlify.app/",
+  },
+  {
     title: "PayStream",
     category: "AI-Powered Code Analysis Platform",
     tools: "React, Node.js, Express 5, Claude Sonnet, Hedera SDK, SSE",
@@ -126,7 +147,7 @@ const Work = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="carousel-image-wrapper" style={index === 1 ? { transform: "translateX(-100px)" } : index >= 2 && index <= 4 ? { transform: "translateX(-100px)" } : undefined}>
+                    <div className="carousel-image-wrapper" style={index >= 0 && index <= 3 ? { transform: "translateX(-40px)" } : index >= 4 && index <= 7 ? { transform: "translateX(-100px)" } : undefined}>
                       <WorkImage image={project.image} alt={project.title} link={project.link} />
                     </div>
                   </div>
