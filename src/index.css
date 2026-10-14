@@ -46,6 +46,14 @@ a:hover {
   color: var(--accentColor);
 }
 
+/* Keyboard focus ring for every link and button. Only shows for keyboard
+   navigation, not mouse clicks. */
+:focus-visible {
+  outline: 2px solid var(--accentColor);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
 main {
   opacity: 1;
   transition: 0.3s;
