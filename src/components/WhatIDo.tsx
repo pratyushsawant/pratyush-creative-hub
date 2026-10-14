@@ -90,8 +90,8 @@ const WhatIDo = () => {
               <h3>FRONTEND</h3>
               <h4>Building Interactive UIs</h4>
               <p>
-                Crafting performant, responsive interfaces with modern frameworks.
-                From SPAs to AI-powered apps, I deliver pixel-perfect experiences.
+                React and TypeScript interfaces, like DB Stencil's drag-and-drop schema
+                canvas that stays in sync with a live DBML code editor.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
@@ -128,8 +128,9 @@ const WhatIDo = () => {
               <h3>BACKEND & AI</h3>
               <h4>Scalable Systems & AI Integration</h4>
               <p>
-                Designing robust APIs and data-driven backends. From AI-powered
-                services to performance-optimized systems, I build solutions that scale.
+                A 25-year DCF engine for chemical EOR economics behind the Tigbourne
+                platform (FastAPI, PostgreSQL, 29 unit tests), plus C++ packet
+                processing at Ericsson that raised 5G throughput by 28%.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
