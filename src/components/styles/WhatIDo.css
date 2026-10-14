@@ -355,14 +355,15 @@
     padding: 30px;
   }
   .what-content p {
-    font-size: 11px;
+    font-size: 12px;
+    line-height: 16px;
   }
   .what-noTouch:hover,
   .what-content-active {
     padding: 10px 30px;
   }
   .what-tags {
-    font-size: 11px;
+    font-size: 12px;
   }
 
   .what-noTouch:hover ~ .what-content,

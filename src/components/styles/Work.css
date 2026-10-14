@@ -274,6 +274,18 @@
 }
 
 @media only screen and (max-width: 1025px) {
+  /* Slides must be exactly one viewport wide, or text clips and the
+     translateX(-100% * index) in Work.tsx drifts out of alignment. */
+  .carousel-slide {
+    flex: 0 0 100%;
+    min-width: 0;
+  }
+
+  /* Cancel the desktop-only inline nudge on the image. */
+  .carousel-image-wrapper {
+    transform: none !important;
+  }
+
   .carousel-content {
     flex-direction: column;
     gap: 30px;

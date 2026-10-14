@@ -252,6 +252,14 @@ h2.landing-info-h2 {
   left: 0;
 }
 
+@media screen and (max-width: 1024px) {
+  /* The block is centred with right: 50%, which caps it at half the width
+     and wraps "AI Engineer". Size it to its content instead. */
+  .landing-info {
+    width: max-content;
+  }
+}
+
 @media screen and (min-width: 500px) {
   .landing-circle2 {
     display: block;
